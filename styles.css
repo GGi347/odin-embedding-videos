@@ -3,6 +3,20 @@ section {
 }
 .navbar {
     background-color: red;
+    display: inline;
+}
+.navs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.heading, li {
+    display: inline;
+    
+}
+.sign-in, .profile{
+    float: right;
+    margin-right: 20px;
 }
 @media (min-width: 1200px){
     .container {
