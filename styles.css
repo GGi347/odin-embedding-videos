@@ -1,0 +1,21 @@
+section {
+    height: 300px;
+}
+.navbar {
+    background-color: red;
+}
+@media (min-width: 1200px){
+    .container {
+        display: grid;
+        grid-template-columns: auto 500px;
+        
+    }
+}
+
+.mainbar {
+    background-color: rgb(206, 206, 39);
+}
+
+.sidebar {
+    background-color: blueviolet;
+}
